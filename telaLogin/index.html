@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main>
+      <!--Formulario-->
+      <div class="formulario">
+        <img
+          src="https://th.bing.com/th/id/OIP.mQhobvq53ig-tUkHQB9QXQAAAA?rs=1&pid=ImgDetMain"
+          alt=""
+        />
+
+        <!-- Email-->
+
+        <hr class="linha"/>
+        <h2>Login to Your Account</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+          reiciendis consequatur similique officiis sed, illum distinctio,
+          assumenda harum autem consequuntur repellat animi maxime voluptatum
+          earum voluptas suscipit quae voluptatibus commodi.
+        </p>
+
+        <form action="/cadastro" method="post">
+          <i class="fa-solid fa-envelope"></i>
+          <label for="email"></label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            value="Digite seu e-mail"
+          />
+        </form>
+        <form action="/senha" method="post">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" id="senha" name="senha" required />
+          <label for="senha"></label>
+          <i class="fa-solid fa-eye"></i>
+        </form> 
+          <button type="submit">Login</button>
+        
+        <!--Integração-->
+        <div class="integracao">
+          <div class="linha"></div>
+          <p>Or</p>
+          <button type="submit"><i class="fa-brands fa-google"></i></button>
+          <button><i class="fa-brands fa-apple"></i></button>
+          <p>Don't have Account? <b>Sign up</b></p>
+        </div>
+      </div>
+
+      <!--Logo-->
+      <div class="imagem">
+        <img
+          src="https://th.bing.com/th/id/OIP.WZz66094VgTrgSaoqeiYMAHaGq?rs=1&pid=ImgDetMain"
+          alt=""
+        />
+      </div>
+    </main>
+  </body>
+</html>
